@@ -1,8 +1,8 @@
 #include "main.h"
-
 /**
- * print alphabet - print the alphabet in lower case
+ * print_alphabet - print the alphabet in lower case follow by a new line
  */
+
 void print_alphabet(void)
 {
 	char dean;
@@ -10,5 +10,5 @@ void print_alphabet(void)
 	for (dean = 'a'; dean <= 'z'; dean++)
 		_putchar(dean);
 
-	_putchar('\n')
+	_putchar('\n');
 }
