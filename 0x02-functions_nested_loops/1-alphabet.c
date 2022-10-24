@@ -6,7 +6,9 @@
 void print_alphabet(void)
 {
 	char dean;
+
 	for (dean = 'a'; dean <= 'z'; dean++)
 		_putchar(dean);
+
 	_putchar('\n')
 }
